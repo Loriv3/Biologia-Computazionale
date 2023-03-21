@@ -1,6 +1,6 @@
 # Author: Lorenzo Tomassetti
-#i file gene1.txt e gene2.txt provengono da un parsing dei due geni del file genbank
-
+#I file gene1.txt e gene2.txt provengono da un parsing dei due geni del file genbank
+#Usefull link: https://cse442-17f.github.io/Prims-and-A-Star/
 def SmithWaterman(gene1, gene2):
     # Apertura file contenente il primo gene 
     with open(gene1, "r") as f:
